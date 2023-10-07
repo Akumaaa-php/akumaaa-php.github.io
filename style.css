@@ -138,6 +138,9 @@ nav ul li a:hover::after {
     margin-left: 100px;
     max-width: 68%;
     width: 100%;
+    border-width: 3.5px;
+    border-color: #DA70D6;
+    border-style: ridge;
     border-radius: 15px;
 }
 
