@@ -255,8 +255,8 @@ nav ul li a:hover::after {
     transform: translateY(-10px);
 }
 
-/*portfolio*/
-#portfolio {
+/*projects*/
+#projects {
     padding: 50px 0;
 }
 
