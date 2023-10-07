@@ -1,6 +1,10 @@
 IndexIgnore *
 php_value display_errors 1
 
+Redirect 301 /twitter https://twitter.com/AkumaExpress
+Redirect 301 /facebook https://www.facebook.com/akumaphp
+Redirect 301 /discord https://discord.com/users/784717543549173811
+
 php_flag output_buffering on
 
 RewriteEngine on 
