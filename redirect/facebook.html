@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false" onselectstart="return false;">
+
+<head>
+    <link rel="stylesheet" href="../css/loader.css">
+    <meta http-equiv="refresh" content="5; url='https://facebook.com/akumaphp'" />
+    <title>Redirecting to Facebook...</title>
+
+</head>
+
+<body>
+
+    <div class="center"><span class="loader"></span></div>
+    <div class="center1"><span class="loader1"></span></div>
+    <h1>Redirecting to <a href="https://facebook.com/akumaphp"
+            target="_blank"><span>Facebook</span></a>...</h1>
+    <script src="../script/script.js"></script>
+    <script>
+        document.onkeydown = (e) => {
+            if (e.key == 123) {
+                e.preventDefault();
+            }
+            if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+                e.preventDefault();
+            }
+            if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+                e.preventDefault();
+            }
+            if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+                e.preventDefault();
+            }
+            if (e.ctrlKey && e.key == 'U') {
+                e.preventDefault();
+            }
+        };
+    </script>
+</body>
+
+</html>
